@@ -35,3 +35,27 @@ This project automates the creation of insightful, executive-level PDF reports b
 ## 📎 Required Columns in Dataset
 
 Make sure your sales file (CSV/XLSX) includes these columns:
+  - `Date`
+  - `Week`
+  - `Month`
+  - `Year`
+  - `Customers`
+  - `Sales Executive`
+  - `Transaction Type`
+  - `Amount`
+  - `Quantity`
+  - `Item Group`
+  - `Due Date`
+
+---
+
+## ✅ How to Use (Google Colab)
+
+1. Open the Colab notebook.
+2. Upload your sales file (CSV or Excel).
+3. Select **Year**, **Month**, and **Week** to analyze.
+4. Click **Generate Report**.
+5. The notebook creates a structured PDF and auto-downloads it.
+
+---
+
